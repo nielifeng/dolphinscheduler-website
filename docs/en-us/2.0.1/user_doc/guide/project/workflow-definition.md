@@ -31,7 +31,7 @@
      <img src="/img/dag7.png" width="80%" />
   </p>
 
-- **Save workflow definition:** Click the "Save" button, and the "Set DAG chart name" pop-up box will pop up, as shown in the figure below. Enter the workflow definition name, workflow definition description, and set global parameters (optional, refer to [ Custom parameters](#UserDefinedParameters)), click the "Add" button, and the workflow definition is created successfully.
+- **Save workflow definition:** Click the "Save" button, and the "Set DAG chart name" pop-up box will pop up, as shown in the figure below. Enter the workflow definition name, workflow definition description, and set global parameters (optional, refer to [ Custom parameters]), click the "Add" button, and the workflow definition is created successfully.
   <p align="center">
      <img src="/img/dag8.png" width="80%" />
    </p>
@@ -46,7 +46,7 @@ Click Project Management -> Workflow -> Workflow Definition to enter the workflo
 </p>
 The operation functions of the workflow definition list are as follows:
 
-- **Edit:** Only "offline" workflow definitions can be edited. Workflow DAG editing is the same as [Create Workflow Definition](#creatDag).
+- **Edit:** Only "offline" workflow definitions can be edited. Workflow DAG editing is the same as [Create Workflow Definition].
 - **Online:** When the workflow status is "Offline", used to online workflow. Only the workflow in the "Online" state can run, but cannot be edited.
 - **Offline:** When the workflow status is "Online", used to offline workflow. Only the workflow in the "Offline" state can be edited, but not run.
 - **Run:** Only workflow in the online state can run. See [2.3.3 Run Workflow] for the operation steps
