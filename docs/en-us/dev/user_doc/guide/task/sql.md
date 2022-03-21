@@ -10,7 +10,7 @@ Refer to [DataSource](../datasource/introduction.md)
 
 ## Create Task
 
-- Click Project Management-Project Name-Workflow Definition, and click the "Create Workflow" button to enter the DAG editing page.
+- Click `Project -> Management-Project -> Name-Workflow Definition`, and click the "Create Workflow" button to enter the DAG editing page.
 - Drag from the toolbar <img src="/img/tasks/icons/sql.png" width="25"/> to the canvas.
 
 ## Task Parameter
@@ -34,7 +34,7 @@ This example creates a temporary table `tmp_hello_world` in Hive and writes a ro
 
 ### After Running the Task Successfully, Query the Results in Hive
 
-Log in to the bigdata cluster and use 'hive' command or 'beeline' or 'JDBC' and other methods to connect to the 'Apache Hive' for the query. The query SQL is `select * from tmp_hello_world_{yyyyMMdd}`, please replace `{yyyyMMdd}` with the date of the running day. The query screenshot is as follows:
+Log in to the bigdata cluster and use 'hive' command or 'beeline' or 'JDBC' and other methods to connect to the 'Apache Hive' for the query. The query SQL is `select * from tmp_hello_world_{yyyyMMdd}`, please replace `{yyyyMMdd}` with the date of the running day. The following shows the query screenshot:
 
 ![hive-sql](/img/tasks/demo/hive-result.png)
 

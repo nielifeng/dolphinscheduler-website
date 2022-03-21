@@ -6,7 +6,7 @@ MapReduce(MR) task type used for executing MapReduce programs. For MapReduce nod
 
 ## Create Task
 
-- Click Project Management-Project Name-Workflow Definition, and click the "Create Workflow" button to enter the DAG editing page.
+- Click `Project -> Management-Project -> Name-Workflow Definition`, and click the `Create Workflow` button to enter the DAG editing page.
 - Drag from the toolbar <img src="/img/tasks/icons/mr.png" width="15"/> to the canvas.
 
 ## Task Parameter
@@ -54,7 +54,7 @@ This example is a common introductory type of MapReduce application, which used 
 
 #### Configure the MapReduce Environment in DolphinScheduler
 
-If you are using the MapReduce task type in a production environment, it is necessary to configure the required environment first. The configuration file is as follows: `/dolphinscheduler/conf/env/dolphinscheduler_env.sh`.
+If you are using the MapReduce task type in a production environment, it is necessary to configure the required environment first. The following is the configuration file: `/dolphinscheduler/conf/env/dolphinscheduler_env.sh`.
 
 ![mr_configure](/img/tasks/demo/mr_task01.png)
 

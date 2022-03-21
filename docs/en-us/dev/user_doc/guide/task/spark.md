@@ -6,7 +6,7 @@ Spark task type used to execute Spark program. For Spark nodes, the worker submi
 
 ## Create Task
 
-- Click Project Management -> Project Name -> Workflow Definition, and click the "Create Workflow" button to enter the DAG editing page.
+- Click `Project -> Management-Project -> Name-Workflow Definition`, and click the `Create Workflow` button to enter the DAG editing page.
 - Drag from the toolbar <img src="/img/tasks/icons/spark.png" width="15"/> to the canvas.
 
 ## Task Parameter
@@ -45,7 +45,7 @@ This is a common introductory case in the big data ecosystem, which often apply 
 
 #### Configure the Spark Environment in DolphinScheduler
 
-If you are using the Spark task type in a production environment, it is necessary to configure the required environment first. The configuration file is as follows: `/dolphinscheduler/conf/env/dolphinscheduler_env.sh`.
+If you are using the Spark task type in a production environment, it is necessary to configure the required environment first. The following is the configuration file: `/dolphinscheduler/conf/env/dolphinscheduler_env.sh`.
 
 ![spark_configure](/img/tasks/demo/spark_task01.png)
 
