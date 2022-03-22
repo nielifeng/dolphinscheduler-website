@@ -59,7 +59,7 @@ export default {
           title: '全面拥抱 K8s，ApacheDolphinScheduler 应用与支持 K8s 任务的探索',
           content: 'K8s 打通了主流公私云之间的壁垒，成为唯一连通公私云的基础架构平台...',
           dateStr: '2022-3-21',
-          link: '/zh-cn/blog/K8s_ Cisco_Hangzhou.html',
+          link: '/zh-cn/blog/K8s_Cisco_Hangzhou.html',
         },
         {
           img: '/img/3-16/1.png',
@@ -551,7 +551,7 @@ export default {
           title: 'Fully Embracing K8s, Cisco Hangzhou Seeks to Support K8s Tasks Based on ApacheDolphinScheduler',
           content: 'K8s is the future of the cloud and is the only infrastructure platform...',
           dateStr: '2022-3-10',
-          link: '/en-us/blog/K8s_ Cisco_Hangzhou.html',
+          link: '/en-us/blog/K8s_Cisco_Hangzhou.html',
         },
         {
 
