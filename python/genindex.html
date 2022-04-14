@@ -39,6 +39,9 @@
 <li class="toctree-l1"><a class="reference internal" href="tutorial.html">Tutorial</a></li>
 <li class="toctree-l1"><a class="reference internal" href="concept.html">Concepts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tasks/index.html">Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="howto/index.html">How To</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cli.html">Command Line Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="config.html">Configuration</a></li>
 <li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
 </ul>
 
@@ -621,6 +624,8 @@
         <li><a href="api.html#pydolphinscheduler.side.WorkerGroup.create_if_not_exists">(pydolphinscheduler.side.WorkerGroup class method)</a>
 </li>
       </ul></li>
+      <li><a href="api.html#pydolphinscheduler.side.User.create_tenant_if_not_exists">create_tenant_if_not_exists() (pydolphinscheduler.side.User method)</a>
+</li>
       <li><a href="tasks/dependent.html#pydolphinscheduler.tasks.dependent.DependentDate.CURRENT_HOUR">CURRENT_HOUR (pydolphinscheduler.tasks.dependent.DependentDate attribute)</a>
 </li>
       <li><a href="api.html#pydolphinscheduler.tasks.DataX.CUSTOM_CONFIG">CUSTOM_CONFIG (pydolphinscheduler.tasks.DataX attribute)</a>
@@ -1210,13 +1215,9 @@
       </ul></li>
       <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition">ProcessDefinition (class in pydolphinscheduler.core)</a>
 </li>
-      <li><a href="api.html#pydolphinscheduler.constants.ProcessDefinitionDefault">ProcessDefinitionDefault (class in pydolphinscheduler.constants)</a>
-</li>
       <li><a href="api.html#pydolphinscheduler.constants.ProcessDefinitionReleaseState">ProcessDefinitionReleaseState (class in pydolphinscheduler.constants)</a>
 </li>
       <li><a href="api.html#pydolphinscheduler.side.Project">Project (class in pydolphinscheduler.side)</a>
-</li>
-      <li><a href="api.html#pydolphinscheduler.constants.ProcessDefinitionDefault.PROJECT">PROJECT (pydolphinscheduler.constants.ProcessDefinitionDefault attribute)</a>
 </li>
       <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition.project">project (pydolphinscheduler.core.ProcessDefinition property)</a>
 </li>
@@ -1245,8 +1246,6 @@
         <li><a href="api.html#module-pydolphinscheduler.exceptions">module</a>
 </li>
       </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li>
     pydolphinscheduler.side
 
@@ -1254,6 +1253,8 @@
         <li><a href="api.html#module-pydolphinscheduler.side">module</a>
 </li>
       </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li>
     pydolphinscheduler.tasks
 
@@ -1354,6 +1355,8 @@
       </ul></li>
       <li><a href="api.html#pydolphinscheduler.exceptions.PyDSBaseException">PyDSBaseException</a>
 </li>
+      <li><a href="api.html#pydolphinscheduler.exceptions.PyDSConfException">PyDSConfException</a>
+</li>
       <li><a href="api.html#pydolphinscheduler.exceptions.PyDSJavaGatewayException">PyDSJavaGatewayException</a>
 </li>
       <li><a href="api.html#pydolphinscheduler.exceptions.PyDSParamException">PyDSParamException</a>
@@ -1377,10 +1380,6 @@
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="api.html#pydolphinscheduler.side.Queue">Queue (class in pydolphinscheduler.side)</a>
-</li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api.html#pydolphinscheduler.constants.ProcessDefinitionDefault.QUEUE">QUEUE (pydolphinscheduler.constants.ProcessDefinitionDefault attribute)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -1640,8 +1639,6 @@
 </li>
       <li><a href="api.html#pydolphinscheduler.side.Tenant">Tenant (class in pydolphinscheduler.side)</a>
 </li>
-      <li><a href="api.html#pydolphinscheduler.constants.ProcessDefinitionDefault.TENANT">TENANT (pydolphinscheduler.constants.ProcessDefinitionDefault attribute)</a>
-</li>
       <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition.tenant">tenant (pydolphinscheduler.core.ProcessDefinition property)</a>
 </li>
       <li><a href="tasks/dependent.html#pydolphinscheduler.tasks.dependent.DependentDate.THIS_MONTH">THIS_MONTH (pydolphinscheduler.tasks.dependent.DependentDate attribute)</a>
@@ -1649,8 +1646,6 @@
       <li><a href="tasks/dependent.html#pydolphinscheduler.tasks.dependent.DependentDate.THIS_WEEK">THIS_WEEK (pydolphinscheduler.tasks.dependent.DependentDate attribute)</a>
 </li>
       <li><a href="api.html#pydolphinscheduler.constants.Time">Time (class in pydolphinscheduler.constants)</a>
-</li>
-      <li><a href="api.html#pydolphinscheduler.constants.ProcessDefinitionDefault.TIME_ZONE">TIME_ZONE (pydolphinscheduler.constants.ProcessDefinitionDefault attribute)</a>
 </li>
       <li><a href="tasks/dependent.html#pydolphinscheduler.tasks.dependent.DependentDate.TODAY">TODAY (pydolphinscheduler.tasks.dependent.DependentDate attribute)</a>
 </li>
@@ -1664,21 +1659,11 @@
 </li>
       <li><a href="api.html#pydolphinscheduler.core.Database.update">update() (pydolphinscheduler.core.Database method)</a>
 </li>
-      <li><a href="api.html#pydolphinscheduler.side.User">User (class in pydolphinscheduler.side)</a>
-</li>
-      <li><a href="api.html#pydolphinscheduler.constants.ProcessDefinitionDefault.USER">USER (pydolphinscheduler.constants.ProcessDefinitionDefault attribute)</a>
-</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api.html#pydolphinscheduler.side.User">User (class in pydolphinscheduler.side)</a>
+</li>
       <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition.user">user (pydolphinscheduler.core.ProcessDefinition property)</a>
-</li>
-      <li><a href="api.html#pydolphinscheduler.constants.ProcessDefinitionDefault.USER_EMAIL">USER_EMAIL (pydolphinscheduler.constants.ProcessDefinitionDefault attribute)</a>
-</li>
-      <li><a href="api.html#pydolphinscheduler.constants.ProcessDefinitionDefault.USER_PHONE">USER_PHONE (pydolphinscheduler.constants.ProcessDefinitionDefault attribute)</a>
-</li>
-      <li><a href="api.html#pydolphinscheduler.constants.ProcessDefinitionDefault.USER_PWD">USER_PWD (pydolphinscheduler.constants.ProcessDefinitionDefault attribute)</a>
-</li>
-      <li><a href="api.html#pydolphinscheduler.constants.ProcessDefinitionDefault.USER_STATE">USER_STATE (pydolphinscheduler.constants.ProcessDefinitionDefault attribute)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -1693,10 +1678,6 @@
 
 <h2 id="W">W</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api.html#pydolphinscheduler.constants.ProcessDefinitionDefault.WORKER_GROUP">WORKER_GROUP (pydolphinscheduler.constants.ProcessDefinitionDefault attribute)</a>
-</li>
-  </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="api.html#pydolphinscheduler.side.WorkerGroup">WorkerGroup (class in pydolphinscheduler.side)</a>
 </li>
