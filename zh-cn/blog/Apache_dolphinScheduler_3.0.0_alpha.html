@@ -66,7 +66,7 @@
 <img src="/img/2020-04-25/8.png"/>
 </div>
 <p>Amazon Redshift 支持</p>
-<p>对于 Amazon S3，我们扩展了 Apache DolphinScheduler 的资源中心，使其不仅能支持本地资源、HDFS 资源存储，同时支持 Amazon S3 作为资源中心的储存。详情可见：<a href="https://dolphinscheduler.apache.org/zh-cn/docs/latest/user_doc/guide/resource.html">https://dolphinscheduler.apache.org/zh-cn/docs/latest/user_doc/guide/resource.html</a>中的</p>
+<p>对于 Amazon S3，我们扩展了 Apache DolphinScheduler 的资源中心，使其不仅能支持本地资源、HDFS 资源存储，同时支持 Amazon S3 作为资源中心的储存。详情可见：<a href="https://dolphinscheduler.apache.org/zh-cn/docs/3.0.0/user_doc/guide/resource/configuration.html">https://dolphinscheduler.apache.org/zh-cn/docs/3.0.0/user_doc/guide/resource/configuration.html</a>中的</p>
 <pre><code class="language-plain">`resource.storage.type`
 </code></pre>
 <p>后续我们将用户的实际需求支持更多 AWS 任务，敬请期待。</p>
@@ -97,7 +97,7 @@
 </div>
 <h3>任务组</h3>
 <p>任务组主要用于控制任务实例并发并明确组内优先级。用户在新建任务定义时，可配置当前任务对应的任务组，并配置任务在任务组内运行的优先级。当任务配置了任务组后，任务的执行除了要满足上游任务全部成功外，还需要满足当前任务组正在运行的任务小于资源池的大小。当大于或者等于资源池大小时，任务会进入等待状态等待下一次检查。当任务组中多个任务同时进到待运行队列中时，会先运行优先级高的任务。</p>
-<p>详见链接：<a href="https://dolphinscheduler.apache.org/zh-cn/docs/3.0.0/user_doc/guide/resource.html">https://dolphinscheduler.apache.org/zh-cn/docs/3.0.0/user_doc/guide/resource.html</a></p>
+<p>详见链接：<a href="https://dolphinscheduler.apache.org/zh-cn/docs/latest/user_doc/guide/resource/configuration.html">https://dolphinscheduler.apache.org/zh-cn/docs/latest/user_doc/guide/resource/configuration.html</a></p>
 <div align=center>
 <img src="/img/2020-04-25/11.png"/>
 </div>
@@ -150,10 +150,10 @@
 <p>Aaron Lin, Amy0104, Assert, BaoLiang, Benedict Jin, BenjaminWenqiYu, Brennan Fox, Devosend, DingPengfei, DuChaoJiaYou, EdwardYang, Eric Gao, Frank Chen, GaoTianDuo, HanayoZz, Hua Jiang, Ivan0626, Jeff Zhan, Jiajie Zhong, JieguangZhou, Jiezhi.G, JinYong Li, J·Y, Kerwin, Kevin.Shin, KingsleyY, Kirs, KyoYang, LinKai, LiuBodong, Manhua, Martin Huang, Maxwell, Molin Wang, OS, QuakeWang, ReonYu, SbloodyS, Shiwen Cheng, ShuiMuNianHuaLP, ShuoTiann, Sunny Lei, Tom, Tq, Wenjun Ruan, X&amp;Z, XiaochenNan, Yanbin Lin, Yao WANG, Zonglei Dong, aCodingAddict, aaronlinv, caishunfeng, calvin, calvinit, cheney, chouc, gaojun2048, guoshupei, hjli, huangxiaohai, janeHe13, jegger, jon-qj, kezhenxu94, labbomb, lgcareer, lhjzmn, lidongdai, lifeng, lilyzhou, lvshaokang, lyq, mans2singh, mask, mazhong, mgduoduo, myangle1120, nobolity, ououtt, ouyangyewei, pinkhello, qianli2022, ronyang1985, seagle, shuai hou, simsicon, songjianet, sparklezzz, springmonster, uh001, wangbowen, wangqiang, wangxj3, wangyang, wangyizhi, wind, worry, xiangzihao, xiaodi wang, xiaoguaiguai, xuhhui, yangyunxi, yc322, yihong, yimaixinchen, zchong, zekai-li, zhang, zhangxinruu, zhanqian, zhuangchong, zhuxt2015, zixi0825, zwZjut,</p>
 <p>天仇, 小张, 时光, 王强, 百岁, 弘树, 张俊杰, 罗铭涛</p>
 </section><footer class="footer-container"><div class="footer-body"><div><h3>联系我们</h3><h4>有问题需要反馈？请通过以下方式联系我们。</h4></div><div class="contact-container"><ul><li><a href="/zh-cn/community/development/subscribe.html"><img class="img-base" src="/img/emailgray.png"/><img class="img-change" src="/img/emailblue.png"/><p>邮件列表</p></a></li><li><a href="https://twitter.com/dolphinschedule"><img class="img-base" src="/img/twittergray.png"/><img class="img-change" src="/img/twitterblue.png"/><p>Twitter</p></a></li><li><a href="https://stackoverflow.com/questions/tagged/apache-dolphinscheduler"><img class="img-base" src="/img/stackoverflow.png"/><img class="img-change" src="/img/stackoverflow-selected.png"/><p>Stack Overflow</p></a></li><li><a href="https://s.apache.org/dolphinscheduler-slack"><img class="img-base" src="/img/slack.png"/><img class="img-change" src="/img/slack-selected.png"/><p>Slack</p></a></li></ul></div><div class="cols-container"><div class="docu-container"><h4>文档</h4><ul><li><a href="/zh-cn/development/architecture-design.html"><p>概览</p></a></li><li><a href="/zh-cn/docs/latest/user_doc/guide/quick-start.html"><p>快速开始</p></a></li><li><a href="/zh-cn/development/development-environment-setup.html"><p>开发者指南</p></a></li></ul></div><div></div><div class="asf-container"><h4>ASF</h4><ul><li><a href="http://www.apache.org"><p>基金会</p></a></li><li><a href="http://www.apache.org/licenses/"><p>证书</p></a></li><li><a href="http://www.apache.org/events/current-event"><p>事件</p></a></li><li><a href="http://www.apache.org/foundation/sponsorship.html"><p>赞助</p></a></li><li><a href="http://www.apache.org/foundation/thanks.html"><p>致谢</p></a></li></ul></div></div><div class="copyright"><span>Copyright © 2019-2021 The Apache Software Foundation. Apache DolphinScheduler, DolphinScheduler, and its feather logo are trademarks of The Apache Software Foundation.</span></div></div></footer></div></div>
-  <script src="//cdn.jsdelivr.net/npm/react@15.6.2/dist/react-with-addons.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/react-dom@15.6.2/dist/react-dom.min.js"></script>
+  <script src="/asset/js/react/react-with-addons.min.js"></script>
+  <script src="/asset/js/react/react-dom.min.js"></script>
   <script>window.rootPath = '';</script>
-  <script src="/build/vendor.a98df93.js"></script>
+  <script src="/build/vendor.ab09058.js"></script>
   <script src="/build/blog.md.f25cabd.js"></script>
   <script>
     var _hmt = _hmt || [];

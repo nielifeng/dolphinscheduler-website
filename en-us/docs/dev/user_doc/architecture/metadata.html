@@ -121,14 +121,14 @@
 <hr>
 <h2>E-R Diagram</h2>
 <h3>User Queue DataSource</h3>
-<p><img src="../../../img/metadata-erd/user-queue-datasource.png" alt="image.png"></p>
+<p><img src="/img/metadata-erd/user-queue-datasource.png" alt="image.png"></p>
 <ul>
 <li>One tenant can own Multiple users.</li>
 <li>The queue field in the t_ds_user table stores the queue_name information in the t_ds_queue table, t_ds_tenant stores queue information using queue_id column. During the execution of the process definition, the user queue has the highest priority. If the user queue is null, use the tenant queue.</li>
 <li>The user_id field in the t_ds_datasource table shows the user who create the data source. The user_id in t_ds_relation_datasource_user shows the user who has permission to the data source.</li>
 </ul>
 <h3>Project Resource Alert</h3>
-<p><img src="../../../img/metadata-erd/project-resource-alert.png" alt="image.png"></p>
+<p><img src="/img/metadata-erd/project-resource-alert.png" alt="image.png"></p>
 <ul>
 <li>User can have multiple projects, user project authorization completes the relationship binding using project_id and user_id in t_ds_relation_project_user table.</li>
 <li>The user_id in the t_ds_projcet table represents the user who create the project, and the user_id in the t_ds_relation_project_user table represents users who have permission to the project.</li>
@@ -136,7 +136,7 @@
 <li>The user_id in the t_ds_udfs table represents the user who create the UDF, and the user_id in the t_ds_relation_udfs_user table represents a user who has permission to the UDF.</li>
 </ul>
 <h3>Command Process Task</h3>
-<p><img src="../../../img/metadata-erd/command.png" alt="image.png"><br /><img src="../../../img/metadata-erd/process-task.png" alt="image.png"></p>
+<p><img src="/img/metadata-erd/command.png" alt="image.png"><br /><img src="/img/metadata-erd/process-task.png" alt="image.png"></p>
 <ul>
 <li>A project has multiple process definitions, a process definition can generate multiple process instances, and a process instance can generate multiple task instances.</li>
 <li>The t_ds_schedulers table stores the specified time schedule information for process definition.</li>
@@ -721,11 +721,11 @@
 </tbody>
 </table>
 </div></section><footer class="footer-container"><div class="footer-body"><div><h3>About us</h3><h4>Do you need feedback? Please contact us through the following ways.</h4></div><div class="contact-container"><ul><li><a href="/en-us/community/development/subscribe.html"><img class="img-base" src="/img/emailgray.png"/><img class="img-change" src="/img/emailblue.png"/><p>Email List</p></a></li><li><a href="https://twitter.com/dolphinschedule"><img class="img-base" src="/img/twittergray.png"/><img class="img-change" src="/img/twitterblue.png"/><p>Twitter</p></a></li><li><a href="https://stackoverflow.com/questions/tagged/apache-dolphinscheduler"><img class="img-base" src="/img/stackoverflow.png"/><img class="img-change" src="/img/stackoverflow-selected.png"/><p>Stack Overflow</p></a></li><li><a href="https://s.apache.org/dolphinscheduler-slack"><img class="img-base" src="/img/slack.png"/><img class="img-change" src="/img/slack-selected.png"/><p>Slack</p></a></li></ul></div><div class="cols-container"><div class="docu-container"><h4>Documentation</h4><ul><li><a href="/en-us/development/architecture-design.html"><p>Overview</p></a></li><li><a href="/en-us/docs/latest/user_doc/guide/quick-start.html"><p>Quick start</p></a></li><li><a href="/en-us/development/development-environment-setup.html"><p>Developer guide</p></a></li></ul></div><div></div><div class="asf-container"><h4>ASF</h4><ul><li><a href="http://www.apache.org"><p>Foundation</p></a></li><li><a href="http://www.apache.org/licenses/"><p>License</p></a></li><li><a href="http://www.apache.org/events/current-event"><p>Events</p></a></li><li><a href="http://www.apache.org/foundation/sponsorship.html"><p>Sponsorship</p></a></li><li><a href="http://www.apache.org/foundation/thanks.html"><p>Thanks</p></a></li></ul></div></div><div class="copyright"><span>Copyright © 2019-2021 The Apache Software Foundation. Apache DolphinScheduler, DolphinScheduler, and its feather logo are trademarks of The Apache Software Foundation.</span></div></div></footer></div></div>
-  <script src="//cdn.jsdelivr.net/npm/react@15.6.2/dist/react-with-addons.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/react-dom@15.6.2/dist/react-dom.min.js"></script>
+  <script src="/asset/js/react/react-with-addons.min.js"></script>
+  <script src="/asset/js/react/react-dom.min.js"></script>
   <script>window.rootPath = '';</script>
-  <script src="/build/vendor.a98df93.js"></script>
-  <script src="/build/docs.md.0e3745a.js"></script>
+  <script src="/build/vendor.ab09058.js"></script>
+  <script src="/build/docs.md.e58525a.js"></script>
   <script>
     var _hmt = _hmt || [];
     (function() {

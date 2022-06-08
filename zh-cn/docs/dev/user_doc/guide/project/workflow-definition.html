@@ -15,11 +15,11 @@
 <ul>
 <li>
 <p>点击项目管理-&gt;工作流-&gt;工作流定义，进入工作流定义页面，点击“创建工作流”按钮，进入<strong>工作流DAG编辑</strong>页面，如下图所示：</p>
-<p><img src="../../../../img/new_ui/dev/project/workflow-dag.png" alt="workflow-dag"></p>
+<p><img src="/img/new_ui/dev/project/workflow-dag.png" alt="workflow-dag"></p>
 </li>
 <li>
-<p>工具栏中拖拽 <img src="../../../../img/tasks/icons/shell.png" width="15"/> 到画板中，新增一个Shell任务,如下图所示：</p>
-<p><img src="../../../../img/tasks/demo/shell.jpg" alt="demo-shell-simple"></p>
+<p>工具栏中拖拽 <img src="/img/tasks/icons/shell.png" width="15"/> 到画板中，新增一个Shell任务,如下图所示：</p>
+<p><img src="/img/tasks/demo/shell.jpg" alt="demo-shell-simple"></p>
 </li>
 <li>
 <p><strong>添加 Shell 任务的参数设置：</strong></p>
@@ -35,15 +35,15 @@
 </li>
 <li>
 <p><strong>配置任务之间的依赖关系：</strong> 点击任务节点的右侧加号连接任务；如下图所示，任务 Node_B 和任务 Node_C 并行执行，当任务 Node_A 执行完，任务 Node_B、Node_C 会同时执行。</p>
-<p><img src="../../../../img/new_ui/dev/project/workflow-dependent.png" alt="workflow-dependent"></p>
+<p><img src="/img/new_ui/dev/project/workflow-dependent.png" alt="workflow-dependent"></p>
 </li>
 <li>
-<p><strong>删除依赖关系：</strong> 点击右上角&quot;箭头&quot;图标<img src="../../../../img/arrow.png" width="35"/>，选中连接线，点击右上角&quot;删除&quot;图标<img src="../../../../img/delete.png" width="35"/>，删除任务间的依赖关系。</p>
-<p><img src="../../../../img/new_ui/dev/project/workflow-delete.png" alt="workflow-delete"></p>
+<p><strong>删除依赖关系：</strong> 点击右上角&quot;箭头&quot;图标<img src="/img/arrow.png" width="35"/>，选中连接线，点击右上角&quot;删除&quot;图标<img src="/img/delete.png" width="35"/>，删除任务间的依赖关系。</p>
+<p><img src="/img/new_ui/dev/project/workflow-delete.png" alt="workflow-delete"></p>
 </li>
 <li>
 <p><strong>保存工作流定义：</strong> 点击”保存“按钮，弹出&quot;设置DAG图名称&quot;弹框，如下图所示，输入工作流定义名称，工作流定义描述，设置全局参数（选填，参考<a href="../parameter/global.md">全局参数</a>），点击&quot;添加&quot;按钮，工作流定义创建成功。</p>
-<p><img src="../../../../img/new_ui/dev/project/workflow-save.png" alt="workflow-save"></p>
+<p><img src="/img/new_ui/dev/project/workflow-save.png" alt="workflow-save"></p>
 <blockquote>
 <p>其他类型任务，请参考 <a href="#TaskParamers">任务节点类型和参数设置</a>。 <!-- markdown-link-check-disable-line --></p>
 </blockquote>
@@ -51,7 +51,7 @@
 </ul>
 <h2>工作流定义操作功能</h2>
 <p>点击项目管理-&gt;工作流-&gt;工作流定义，进入工作流定义页面，如下图所示:</p>
-<p><img src="../../../../img/new_ui/dev/project/workflow-list.png" alt="workflow-list"></p>
+<p><img src="/img/new_ui/dev/project/workflow-list.png" alt="workflow-list"></p>
 <p>工作流定义列表的操作功能如下：</p>
 <ul>
 <li><strong>编辑：</strong> 只能编辑&quot;下线&quot;的工作流定义。工作流DAG编辑同创建工作流定义。</li>
@@ -64,16 +64,16 @@
 <li><strong>下载：</strong> 下载工作流定义到本地。</li>
 <li><strong>树形图：</strong> 以树形结构展示任务节点的类型及任务状态，如下图所示：</li>
 </ul>
-<p><img src="../../../../img/new_ui/dev/project/workflow-tree.png" alt="workflow-tree"></p>
+<p><img src="/img/new_ui/dev/project/workflow-tree.png" alt="workflow-tree"></p>
 <h2>运行工作流</h2>
 <ul>
-<li>点击项目管理-&gt;工作流-&gt;工作流定义，进入工作流定义页面，如下图所示，点击&quot;上线&quot;按钮<img src="../../../../img/online.png" width="35"/>，上线工作流。</li>
+<li>点击项目管理-&gt;工作流-&gt;工作流定义，进入工作流定义页面，如下图所示，点击&quot;上线&quot;按钮<img src="/img/online.png" width="35"/>，上线工作流。</li>
 </ul>
-<p><img src="../../../../img/new_ui/dev/project/workflow-online.png" alt="workflow-online"></p>
+<p><img src="/img/new_ui/dev/project/workflow-online.png" alt="workflow-online"></p>
 <ul>
 <li>点击”运行“按钮，弹出启动参数设置弹框，如下图所示，设置启动参数，点击弹框中的&quot;运行&quot;按钮，工作流开始运行，工作流实例页面生成一条工作流实例。</li>
 </ul>
-<p><img src="../../../../img/new_ui/dev/project/workflow-run.png" alt="workflow-run"></p>
+<p><img src="/img/new_ui/dev/project/workflow-run.png" alt="workflow-run"></p>
 <p>工作流运行参数说明：</p>
 <ul>
 <li>
@@ -105,7 +105,7 @@
 <ul>
 <li>补数： 执行指定日期的工作流定义，可以选择补数时间范围（当定时配置未上线时默认会根据所选时间范围进行每天一次的补数，如果定时配置已上线则会根据所选的时间范围结合定时配置进行补数)，比如需要补 5 月 9 号到 5 月 10 号的数据，如下图所示：</li>
 </ul>
-<p><img src="../../../../img/new_ui/dev/project/workflow-date.png" alt="workflow-date"></p>
+<p><img src="/img/new_ui/dev/project/workflow-date.png" alt="workflow-date"></p>
 <blockquote>
 <p>串行模式：补数从 5 月 9 号到 5 月 10 号依次执行，依次在流程实例页面生成十条流程实例；</p>
 </blockquote>
@@ -117,15 +117,15 @@
 <h2>工作流定时</h2>
 <ul>
 <li>
-<p>创建定时：点击项目管理-&gt;工作流-&gt;工作流定义，进入工作流定义页面，上线工作流，点击&quot;定时&quot;按钮<img src="../../../../img/timing.png" width="35"/>,弹出定时参数设置弹框，如下图所示：</p>
-<p><img src="../../../../img/new_ui/dev/project/workflow-time01.png" alt="workflow-time01"></p>
+<p>创建定时：点击项目管理-&gt;工作流-&gt;工作流定义，进入工作流定义页面，上线工作流，点击&quot;定时&quot;按钮<img src="/img/timing.png" width="35"/>,弹出定时参数设置弹框，如下图所示：</p>
+<p><img src="/img/new_ui/dev/project/workflow-time01.png" alt="workflow-time01"></p>
 </li>
 <li>
 <p>选择起止时间。在起止时间范围内，定时运行工作流；不在起止时间范围内，不再产生定时工作流实例。</p>
 </li>
 <li>
 <p>添加一个每隔 5 分钟执行一次的定时，如下图所示：</p>
-<p><img src="../../../../img/new_ui/dev/project/workflow-time02.png" alt="workflow-time02"></p>
+<p><img src="/img/new_ui/dev/project/workflow-time02.png" alt="workflow-time02"></p>
 </li>
 <li>
 <p>失败策略、通知策略、流程优先级、Worker 分组、通知组、收件人、抄送人同工作流运行参数。</p>
@@ -134,18 +134,18 @@
 <p>点击&quot;创建&quot;按钮，创建定时成功，此时定时状态为&quot;<strong>下线</strong>&quot;，定时需<strong>上线</strong>才生效。</p>
 </li>
 <li>
-<p>定时上线：点击&quot;定时管理&quot;按钮<img src="../../../../img/timeManagement.png" width="35"/>，进入定时管理页面，点击&quot;上线&quot;按钮，定时状态变为&quot;上线&quot;，如下图所示，工作流定时生效。</p>
-<p><img src="../../../../img/new_ui/dev/project/workflow-time03.png" alt="workflow-time03"></p>
+<p>定时上线：点击&quot;定时管理&quot;按钮<img src="/img/timeManagement.png" width="35"/>，进入定时管理页面，点击&quot;上线&quot;按钮，定时状态变为&quot;上线&quot;，如下图所示，工作流定时生效。</p>
+<p><img src="/img/new_ui/dev/project/workflow-time03.png" alt="workflow-time03"></p>
 </li>
 </ul>
 <h2>导入工作流</h2>
 <p>点击项目管理-&gt;工作流-&gt;工作流定义，进入工作流定义页面，点击&quot;导入工作流&quot;按钮，导入本地工作流文件，工作流定义列表显示导入的工作流，状态为下线。</p>
 </div></section><footer class="footer-container"><div class="footer-body"><div><h3>联系我们</h3><h4>有问题需要反馈？请通过以下方式联系我们。</h4></div><div class="contact-container"><ul><li><a href="/zh-cn/community/development/subscribe.html"><img class="img-base" src="/img/emailgray.png"/><img class="img-change" src="/img/emailblue.png"/><p>邮件列表</p></a></li><li><a href="https://twitter.com/dolphinschedule"><img class="img-base" src="/img/twittergray.png"/><img class="img-change" src="/img/twitterblue.png"/><p>Twitter</p></a></li><li><a href="https://stackoverflow.com/questions/tagged/apache-dolphinscheduler"><img class="img-base" src="/img/stackoverflow.png"/><img class="img-change" src="/img/stackoverflow-selected.png"/><p>Stack Overflow</p></a></li><li><a href="https://s.apache.org/dolphinscheduler-slack"><img class="img-base" src="/img/slack.png"/><img class="img-change" src="/img/slack-selected.png"/><p>Slack</p></a></li></ul></div><div class="cols-container"><div class="docu-container"><h4>文档</h4><ul><li><a href="/zh-cn/development/architecture-design.html"><p>概览</p></a></li><li><a href="/zh-cn/docs/latest/user_doc/guide/quick-start.html"><p>快速开始</p></a></li><li><a href="/zh-cn/development/development-environment-setup.html"><p>开发者指南</p></a></li></ul></div><div></div><div class="asf-container"><h4>ASF</h4><ul><li><a href="http://www.apache.org"><p>基金会</p></a></li><li><a href="http://www.apache.org/licenses/"><p>证书</p></a></li><li><a href="http://www.apache.org/events/current-event"><p>事件</p></a></li><li><a href="http://www.apache.org/foundation/sponsorship.html"><p>赞助</p></a></li><li><a href="http://www.apache.org/foundation/thanks.html"><p>致谢</p></a></li></ul></div></div><div class="copyright"><span>Copyright © 2019-2021 The Apache Software Foundation. Apache DolphinScheduler, DolphinScheduler, and its feather logo are trademarks of The Apache Software Foundation.</span></div></div></footer></div></div>
-  <script src="//cdn.jsdelivr.net/npm/react@15.6.2/dist/react-with-addons.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/react-dom@15.6.2/dist/react-dom.min.js"></script>
+  <script src="/asset/js/react/react-with-addons.min.js"></script>
+  <script src="/asset/js/react/react-dom.min.js"></script>
   <script>window.rootPath = '';</script>
-  <script src="/build/vendor.a98df93.js"></script>
-  <script src="/build/docs.md.0e3745a.js"></script>
+  <script src="/build/vendor.ab09058.js"></script>
+  <script src="/build/docs.md.e58525a.js"></script>
   <script>
     var _hmt = _hmt || [];
     (function() {
