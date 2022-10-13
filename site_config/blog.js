@@ -4,7 +4,28 @@ export default {
         postsTitle: 'All posts',
         list: [
             {
-                title: 'Three scenarios and five optimizations of Apache DolphinScheduler in XWBank for processing of task instances\n',
+                title: 'Apache DolphinScheduler 3.0.0 Official Version Released!',
+                author: 'Debra Chen',
+                dateStr: '2022-9-2',
+                desc: 'The official version 3.0.0 has undergone the most significant changes since its release... ',
+                link: '/en-us/blog/Apache_dolphinScheduler_3.0.0.html',
+            },
+            {
+                title: 'ApacheCon Asia 2022 Review | Application of DolphinScheduler in T3Go One-stop Platform',
+                author: 'Debra Chen',
+                dateStr: '2022-8-30',
+                desc: 'At the ApacheCon Asia 2022, big data engineers Li Xinkai & Zhao Yuwei at T3Go ... ',
+                link: '/en-us/blog/DolphinScheduler_in_T3Go_One-stop_Platform.html',
+            },
+            {
+                title: 'pache DolphinScheduler Extends Capabilities Through Python API and AWS Support',
+                author: 'Debra Chen',
+                dateStr: '2022-8-26',
+                desc: 'In the ever-changing world of technology, data is abundant. ... ',
+                link: '/en-us/blog/Python_API_and_AWS_Support.html',
+            },
+            {
+                title: 'Three scenarios and five optimizations of Apache DolphinScheduler in XWBank for processing of task instances',
                 author: 'Debra Chen',
                 dateStr: '2022-5-25',
                 desc: 'At XWBank, a large number of task instances are generated every day... ',
@@ -403,13 +424,6 @@ export default {
                 dateStr: '2021-12-17',
                 desc: 'Apache DolphinScheduler 2.0.1',
                 link: '/zh-cn/blog/Apache-DolphinScheduler-2.0.1.html',
-            },
-            {
-                title: '从 Airflow 到 Apache DolphinScheduler，有赞大数据开发平台的调度系统演进',
-                author: 'Debra Chen',
-                dateStr: '2021-12-10',
-                desc: 'YouZan case study',
-                link: '/zh-cn/blog/YouZan-case-study.html',
             },
             {
                 title: '荔枝机器学习平台与大数据调度系统“双剑合璧”，打造未来数据处理新模式!',

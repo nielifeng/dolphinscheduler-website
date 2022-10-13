@@ -1,6 +1,5 @@
 # Introducing Apache DolphinScheduler 1.3.9, StandaloneServer is Available!
 
-[![_5fc2f5f0697d2457db591583571c1a50_25072.md.jpg](https://s1.imgpp.com/2021/10/25/_5fc2f5f0697d2457db591583571c1a50_25072.md.jpg)](https://imgpp.com/image/OQFd4)
 
 On October 22, 2021, we are excited to announce the release of Apache DolphinScheduler 1.3.9. After a month and a half，Apache DolphinScheduler 1.3.9 brings StandaloneServer to users with the joint efforts of the community. StandaloneServer is a major update of this version, which means a huge leap in ease of use, and the details will be introduced below. In addition, this upgrade also fixes two critical bugs in 1.3.8.
 
@@ -57,7 +56,6 @@ DolphinScheduler assembles Tasks in the form of DAG (Directed Acyclic Graph), wh
 
 According to incomplete statistics, as of October 2020, 600+ companies and institutions have adopted DolphinScheduler in production environments. Partial cases are shown as below (in no particular order).
 
-[![logo.md.png](https://s1.imgpp.com/2021/10/25/logo.md.png)](https://imgpp.com/image/OQylI)
 
 ## 3 Participate in Contribution
 
@@ -68,7 +66,7 @@ There are many ways to participate in and contribute to the Apache DolphinSchedu
 * Contribute to the first PR (document, code). We hope it to be simple and a try to get yourself familiar with the submission process and community collaboration.
 * We have compiled a list of issues suitable for novices: [Good First Issues](https://github.com/apache/dolphinscheduler/issues/5689)
 * And a list of issues for non-newbie: [Volunteer Wanted](https://github.com/apache/dolphinscheduler/issues?q=is%3Aopen+is%3Aissue+label%3A%22volunteer+wanted%22)
-* How to participate in the contribution: [Participate in Contributing](https://dolphinscheduler.apache.org/en-us/community/development/contribute.html)
+* How to participate in the contribution: [Participate in Contributing](https://dolphinscheduler.apache.org/en-us/docs/dev/user_doc/contribute/join/review.html)
 
 Apache DolphinScheduler Community needs you! Even if a small piece of tile will make a big differnce.
 

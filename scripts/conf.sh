@@ -18,22 +18,23 @@
 # under the License.
 
 # Codebase Repository
-PROJECT_NAME="dolphinscheduler"
-PROJECT_BRANCH_NAME="dev"
-PROJECT_WEBSITE_NAME="${PROJECT_NAME}-website"
-PROJECT_WEBSITE_BRANCH_NAME="history-docs"
+PROJECT_ORG=${PROJECT_ORG:-apache}
+PROJECT_NAME=${PROJECT_NAME:-dolphinscheduler}
+PROJECT_BRANCH_NAME=${PROJECT_BRANCH_NAME:-dev}
+PROJECT_WEBSITE_ORG=${PROJECT_WEBSITE_ORG:-apache}
+PROJECT_WEBSITE_NAME=${PROJECT_WEBSITE_NAME:-${PROJECT_NAME}-website}
+PROJECT_WEBSITE_BRANCH_NAME=${PROJECT_WEBSITE_BRANCH_NAME:-history-docs}
 
 # Repository Website(current) Directory And Files
-SWAP_DIR="${SOURCE_PATH}/swap"
-PROJECT_SITE_DOC_DIR="${SOURCE_PATH}/docs"
-PROJECT_SITE_DEVELOP_DIR="${SOURCE_PATH}/development"
-PROJECT_DIR="${SWAP_DIR}/${PROJECT_NAME}"
-PROJECT_WEBSITE_DIR="${SWAP_DIR}/${PROJECT_WEBSITE_NAME}"
+SWAP_DIR=${SWAP_DIR:-${SOURCE_PATH}/swap}
+PROJECT_SITE_DOC_DIR=${PROJECT_SITE_DOC_DIR:-${SOURCE_PATH}/docs}
+PROJECT_DIR=${PROJECT_DIR:-${SWAP_DIR}/${PROJECT_NAME}}
+PROJECT_WEBSITE_DIR=${PROJECT_WEBSITE_DIR:-${SWAP_DIR}/${PROJECT_WEBSITE_NAME}}
 
 # docs in apache/dolphinscheduler-webstie branch `history-docs`
 declare -a HISTORY_DOCS_VERSIONS=(
 "1.2.0" "1.2.1" "1.3.1" "1.3.2" "1.3.3" "1.3.4" "1.3.5" "1.3.6" "1.3.8" "1.3.9"
-"2.0.0" "2.0.1" "2.0.2" "2.0.3" "2.0.5"
+"2.0.0" "2.0.1" "2.0.2" "2.0.3" "2.0.5" "2.0.6"
 )
 
 # NOTE: We should avoid use syntax `declare -A DEV_RELEASE_DOCS_VERSIONS=(["3.0.0"]="3.0.0-alpha-release")` because
@@ -42,5 +43,7 @@ declare -a HISTORY_DOCS_VERSIONS=(
 DEV_RELEASE_DOCS_VERSIONS=(
   # The key value is represents of, `key` for document version and `val` for source branch apache/dolphinscheduler.
   # example: "key:val"
-  "3.0.0:3.0.0-beta-1-release"
+  "3.0.0:3.0.0-release"
+  "3.0.1:3.0.1-release"
+  "3.1.0:3.1.0-release"
 )
