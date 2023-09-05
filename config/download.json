@@ -1,4 +1,82 @@
 {
+  "3.1.8": {
+    "time": "2023-08-07",
+    "src": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.1.8/apache-dolphinscheduler-3.1.8-src.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.1.8/apache-dolphinscheduler-3.1.8-src.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.1.8/apache-dolphinscheduler-3.1.8-src.tar.gz.sha512"
+    },
+    "bin": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.1.8/apache-dolphinscheduler-3.1.8-bin.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.1.8/apache-dolphinscheduler-3.1.8-bin.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.1.8/apache-dolphinscheduler-3.1.8-bin.tar.gz.sha512"
+    }
+  },
+  "3.1.7": {
+    "time": "2023-05-25",
+    "src": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.1.7/apache-dolphinscheduler-3.1.7-src.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.1.7/apache-dolphinscheduler-3.1.7-src.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.1.7/apache-dolphinscheduler-3.1.7-src.tar.gz.sha512"
+    },
+    "bin": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.1.7/apache-dolphinscheduler-3.1.7-bin.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.1.7/apache-dolphinscheduler-3.1.7-bin.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.1.7/apache-dolphinscheduler-3.1.7-bin.tar.gz.sha512"
+    }
+  },
+  "3.1.6": {
+    "time": "2023-05-15",
+    "src": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.1.6/apache-dolphinscheduler-3.1.6-src.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.1.6/apache-dolphinscheduler-3.1.6-src.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.1.6/apache-dolphinscheduler-3.1.6-src.tar.gz.sha512"
+    },
+    "bin": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.1.6/apache-dolphinscheduler-3.1.6-bin.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.1.6/apache-dolphinscheduler-3.1.6-bin.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.1.6/apache-dolphinscheduler-3.1.6-bin.tar.gz.sha512"
+    }
+  },
+  "3.1.5": {
+    "time": "2023-04-06",
+    "src": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.1.5/apache-dolphinscheduler-3.1.5-src.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.1.5/apache-dolphinscheduler-3.1.5-src.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.1.5/apache-dolphinscheduler-3.1.5-src.tar.gz.sha512"
+    },
+    "bin": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.1.5/apache-dolphinscheduler-3.1.5-bin.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.1.5/apache-dolphinscheduler-3.1.5-bin.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.1.5/apache-dolphinscheduler-3.1.5-bin.tar.gz.sha512"
+    }
+  },
+  "3.1.4": {
+    "time": "2023-02-24",
+    "src": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.1.4/apache-dolphinscheduler-3.1.4-src.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.1.4/apache-dolphinscheduler-3.1.4-src.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.1.4/apache-dolphinscheduler-3.1.4-src.tar.gz.sha512"
+    },
+    "bin": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.1.4/apache-dolphinscheduler-3.1.4-bin.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.1.4/apache-dolphinscheduler-3.1.4-bin.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.1.4/apache-dolphinscheduler-3.1.4-bin.tar.gz.sha512"
+    }
+  },
+  "3.1.3": {
+    "time": "2023-01-08",
+    "src": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.1.3/apache-dolphinscheduler-3.1.3-src.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.1.3/apache-dolphinscheduler-3.1.3-src.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.1.3/apache-dolphinscheduler-3.1.3-src.tar.gz.sha512"
+    },
+    "bin": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.1.3/apache-dolphinscheduler-3.1.3-bin.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.1.3/apache-dolphinscheduler-3.1.3-bin.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.1.3/apache-dolphinscheduler-3.1.3-bin.tar.gz.sha512"
+    }
+  },
   "3.1.2": {
     "time": "2022-12-11",
     "src": {
@@ -10,6 +88,45 @@
       "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.1.2/apache-dolphinscheduler-3.1.2-bin.tar.gz",
       "asc": "https://downloads.apache.org/dolphinscheduler/3.1.2/apache-dolphinscheduler-3.1.2-bin.tar.gz.asc",
       "sha512": "https://downloads.apache.org/dolphinscheduler/3.1.2/apache-dolphinscheduler-3.1.2-bin.tar.gz.sha512"
+    }
+  },
+  "3.0.6": {
+    "time": "2023-5-30",
+    "src": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.0.6/apache-dolphinscheduler-3.0.6-src.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.0.6/apache-dolphinscheduler-3.0.6-src.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.0.6/apache-dolphinscheduler-3.0.6-src.tar.gz.sha512"
+    },
+    "bin": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.0.6/apache-dolphinscheduler-3.0.6-bin.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.0.6/apache-dolphinscheduler-3.0.6-bin.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.0.6/apache-dolphinscheduler-3.0.6-bin.tar.gz.sha512"
+    }
+  },
+  "3.0.5": {
+    "time": "2023-4-3",
+    "src": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.0.5/apache-dolphinscheduler-3.0.5-src.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.0.5/apache-dolphinscheduler-3.0.5-src.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.0.5/apache-dolphinscheduler-3.0.5-src.tar.gz.sha512"
+    },
+    "bin": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.0.5/apache-dolphinscheduler-3.0.5-bin.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.0.5/apache-dolphinscheduler-3.0.5-bin.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.0.5/apache-dolphinscheduler-3.0.5-bin.tar.gz.sha512"
+    }
+  },
+  "3.0.4": {
+    "time": "2023-1-3",
+    "src": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.0.4/apache-dolphinscheduler-3.0.4-src.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.0.4/apache-dolphinscheduler-3.0.4-src.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.0.4/apache-dolphinscheduler-3.0.4-src.tar.gz.sha512"
+    },
+    "bin": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.0.4/apache-dolphinscheduler-3.0.4-bin.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/3.0.4/apache-dolphinscheduler-3.0.4-bin.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/3.0.4/apache-dolphinscheduler-3.0.4-bin.tar.gz.sha512"
     }
   },
   "3.0.3": {
@@ -49,6 +166,32 @@
       "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/3.1.1/apache-dolphinscheduler-3.1.1-bin.tar.gz",
       "asc": "https://downloads.apache.org/dolphinscheduler/3.1.1/apache-dolphinscheduler-3.1.1-bin.tar.gz.asc",
       "sha512": "https://downloads.apache.org/dolphinscheduler/3.1.1/apache-dolphinscheduler-3.1.1-bin.tar.gz.sha512"
+    }
+  },
+  "2.0.9": {
+    "time": "2023-06-05",
+    "src": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/2.0.9/apache-dolphinscheduler-2.0.9-src.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/2.0.9/apache-dolphinscheduler-2.0.9-src.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/2.0.9/apache-dolphinscheduler-2.0.9-src.tar.gz.sha512"
+    },
+    "bin": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/2.0.9/apache-dolphinscheduler-2.0.9-bin.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/2.0.9/apache-dolphinscheduler-2.0.9-bin.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/2.0.9/apache-dolphinscheduler-2.0.9-bin.tar.gz.sha512"
+    }
+  },
+  "2.0.8": {
+    "time": "2023-02-08",
+    "src": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/2.0.8/apache-dolphinscheduler-2.0.8-src.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/2.0.8/apache-dolphinscheduler-2.0.8-src.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/2.0.8/apache-dolphinscheduler-2.0.8-src.tar.gz.sha512"
+    },
+    "bin": {
+      "src": "https://www.apache.org/dyn/closer.lua/dolphinscheduler/2.0.8/apache-dolphinscheduler-2.0.8-bin.tar.gz",
+      "asc": "https://downloads.apache.org/dolphinscheduler/2.0.8/apache-dolphinscheduler-2.0.8-bin.tar.gz.asc",
+      "sha512": "https://downloads.apache.org/dolphinscheduler/2.0.8/apache-dolphinscheduler-2.0.8-bin.tar.gz.sha512"
     }
   },
   "2.0.7": {

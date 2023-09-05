@@ -34,3 +34,5 @@ public/pages
 public/user
 public/.asf.yaml
 public/LICENSE
+*.icloud
+.idea
